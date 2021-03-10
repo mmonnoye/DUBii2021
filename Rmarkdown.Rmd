@@ -1,0 +1,25 @@
+---
+title: "Test Rmarkdown"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r cars}
+summary(cars)
+```
+
+
+```{r iris}
+knitr::kable(head(iris))
+```
+
+## Plots
+
+```{r plot, echo=FALSE}
+plot(cars)
+```
